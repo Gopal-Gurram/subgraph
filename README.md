@@ -34,7 +34,7 @@ Contains data on a specific pair.
 
 #### Transaction
 
-Every transaction on BSCswap is stored. Each transaction contains an array of mints, burns, and swaps that occured within it.
+Every transaction on qdexswap is stored. Each transaction contains an array of mints, burns, and swaps that occured within it.
 
 #### Mint, Burn, Swap
 
@@ -42,9 +42,9 @@ These contain specifc information about a transaction. Things like which pair tr
 
 ## Example Queries
 
-### Querying Aggregated BSCswap Data
+### Querying Aggregated qdexswap Data
 
-This query fetches aggredated data from all bscswap pairs and tokens, to give a view into how much activity is happening within the whole protocol.
+This query fetches aggredated data from all qdexswap pairs and tokens, to give a view into how much activity is happening within the whole protocol.
 
 ```graphql
 {
