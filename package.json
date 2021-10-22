@@ -1,16 +1,24 @@
 {
   "name": "qsub",
-  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "repository": "https://github.com/Gopal-Gurram/subgraph.git",
+  "license": "GPL-3.0-or-later",
   "scripts": {
-    "codegen": "graph codegen",
+    "codegen": "graph codegen --output-dir src/types/",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ qsub",
     "create-local": "graph create --node http://localhost:8020/ qsub",
     "remove-local": "graph remove --node http://localhost:8020/ qsub",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 qsub"
   },
-  "dependencies": {
+  "devDependencies": {
     "@graphprotocol/graph-cli": "0.22.3",
-    "@graphprotocol/graph-ts": "0.22.1"
+    "@graphprotocol/graph-ts": "0.22.1",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.2"
   }
 }
