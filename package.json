@@ -1,6 +1,6 @@
 {
   "name": "qsub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/Gopal-Gurram/subgraph.git",
   "license": "GPL-3.0-or-later",
   "scripts": {

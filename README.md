@@ -1,14 +1,14 @@
 # qdexswap Subgraph
 
-[qdexswap](https://bscswap.com/) is a decentralized protocol for automated token exchange on Binance Smart Chain.
+[qdexswap]() is a decentralized protocol for automated token exchange on Binance Smart Chain.
 
-This subgraph dynamically tracks any pair created by the bscswap factory. It tracks of the current state of qdexswap contracts, and contains derived stats for things like historical data and USD prices.
+This subgraph dynamically tracks any pair created by the qdexswap factory. It tracks of the current state of qdexswap contracts, and contains derived stats for things like historical data and USD prices.
 
 - aggregated data across pairs and tokens,
 - data on individual pairs and tokens,
 - data on transactions
 - data on liquidity providers
-- historical data on BSCswap, pairs or tokens, aggregated by day
+- historical data on qdexswap, pairs or tokens, aggregated by day
 
 ## Running Locally
 
@@ -22,7 +22,7 @@ Below are a few ways to show how to query the bscswap-subgraph for data. The que
 
 #### qdexswapFactory
 
-Contains data across all of BSCswap. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
+Contains data across all of qdexswap. This entity tracks important things like total liquidity (in ETH and USD, see below), all time volume, transaction count, number of pairs and more.
 
 #### Token
 
